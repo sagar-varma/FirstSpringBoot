@@ -20,7 +20,7 @@ public class DemoApplication {
 
 	@GetMapping("/feature")
 	public String feature(){
-		return "Hello Feauture Branch";
+		return "Hello Feature Branch";
 	}
 
 	@GetMapping("/AnotherFeature")
