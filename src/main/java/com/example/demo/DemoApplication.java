@@ -25,7 +25,7 @@ public class DemoApplication {
 
 	@GetMapping("/AnotherFeature")
 	public String AnotherFeature(){
-		return "Hello Anothe Feature";
+		return "Hello Another Feature";
 	}
 
 }
