@@ -18,4 +18,14 @@ public class DemoApplication {
 		return "Hello World - Changed to Index";
 	}
 
+	@GetMapping("/feature")
+	public String feature(){
+		return "Hello Feauture Branch";
+	}
+
+	@GetMapping("/AnotherFeature")
+	public String AnotherFeature(){
+		return "Hello Anothe Feature";
+	}
+
 }
