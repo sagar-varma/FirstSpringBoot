@@ -15,7 +15,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String index(){
-		return "Hello World";
+		return "Hello World - Changed to Index";
 	}
 
 }
